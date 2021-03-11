@@ -12,6 +12,12 @@ $content-max-weight: 1240px;
 	outline-offset: 4px;
 }
 
+input:not([type="checkbox"]):not([type="radio"]),
+textarea,
+select {
+	appearance: none;
+}
+
 // https://github.com/WICG/focus-visible
 .js-focus-visible :focus:not(.focus-visible) {
 	outline: none;
